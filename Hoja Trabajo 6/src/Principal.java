@@ -3,7 +3,7 @@
  */
 
 /**
- * @author fcoja
+ * @author francisco Avila, 21705, Javier Vásquez 21585
  *
  */
 public class Principal extends javax.swing.JFrame {
