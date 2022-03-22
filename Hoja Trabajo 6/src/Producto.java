@@ -3,7 +3,7 @@
  */
 
 /**
- * @author francisco Avila, 21705
+ * @author francisco Avila, 21705, Javier Vásquez 21585
  *
  */
 public class Producto {
