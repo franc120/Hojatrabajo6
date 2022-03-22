@@ -51,6 +51,6 @@ public class BaseDatosProductos {
 	
 	public String generarInforme() {
 		List<Producto> ListaM = obtenerMayores();
-		return ListaM.get(0).getNombre(
+		return ListaM.get(0).getNombre()
 	}
 }
