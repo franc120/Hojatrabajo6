@@ -20,7 +20,7 @@ public class Producto {
 		this.inventario = inventario;
 	}
 
-	public Producto() {
+	public Producto(String string, String string2, String string3) {
 		
 	}
 
