@@ -7,15 +7,15 @@ public class BaseDatosProductos {
 	
 	public BaseDatosProductos() {
 		this.ListaProducto.put(1, new Producto("muebleTerraza", "Mesas de Jardin",""));
-		this.ListaProducto.put(2, new Producto("muebleTerraza", "Sillas de jardÌn", ""));
-		this.ListaProducto.put(3, new Producto("muebleTerraza", "Conjuntos mesas y sillas de jardÌn ", ""));
+		this.ListaProducto.put(2, new Producto("muebleTerraza", "Sillas de jard√≠n", ""));
+		this.ListaProducto.put(3, new Producto("muebleTerraza", "Conjuntos mesas y sillas de jard√≠n ", ""));
 		this.ListaProducto.put(4, new Producto("muebleTerraza", "Mesas de Ping Pong exteriores ", ""));
 		this.ListaProducto.put(5, new Producto("Sillones de masaje" , "Cojines y colchonetas de masaje ", ""));
-		this.ListaProducto.put(6, new Producto("Sillones de masaje", "Sillones relax y sof·s de masajes ", ""));
+		this.ListaProducto.put(6, new Producto("Sillones de masaje", "Sillones relax y sof√°s de masajes ", ""));
 		this.ListaProducto.put(7, new Producto("Sillones de masaje", "Sillones de masajes avanzados ", ""));
-		this.ListaProducto.put(8, new Producto("Sillones de masaje", "Sof·s camas ", ""));
+		this.ListaProducto.put(8, new Producto("Sillones de masaje", "Sof√°s camas ", ""));
 		this.ListaProducto.put(9, new Producto("bebidas", "Cerveza tibetana Barley ", ""));
-		this.ListaProducto.put(10, new Producto("bebidas", "TÈ frio ", ""));
+		this.ListaProducto.put(10, new Producto("bebidas", "T√© frio ", ""));
 		this.ListaProducto.put(11, new Producto("bebidas", "Coca cola 1 litro", ""));
 		this.ListaProducto.put(12, new Producto("bebidas", "Coca cola 2 litros ", ""));
 		this.ListaProducto.put(13, new Producto("bebidas", "Sirope de regaliz", ""));
@@ -51,6 +51,6 @@ public class BaseDatosProductos {
 	
 	public String generarInforme() {
 		List<Producto> ListaM = obtenerMayores();
-		return ListaM.get(0).getNombre()
+		return ListaM.get(0).getNombre(
 	}
 }
