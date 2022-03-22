@@ -43,7 +43,7 @@ public class TableModelProducto extends AbstractAction{
 	}
 	
 	public void ActualizarTabla() {
-		fireTableDataChanged(;
+		fireTableDataChanged();
 	}
 	public Producto detalle(int fila) {
 		return this.producto.get(fila);
